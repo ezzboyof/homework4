@@ -4,7 +4,7 @@ import java.util.Objects;
 public class Person {
     private String name;
     private int age;
-    static private String text = "Hello from static";
+    static private String text = "Hello from static"; // static поля идут раньше других
 
     public Person() {
         this("Dmitriy", 15);
@@ -25,7 +25,7 @@ public class Person {
 
     public void show() {
         System.out.println("Person name: " + name + " Person age: " + age);
-        System.out.println();
+        System.out.println(); // думаю этот вызов можно убрать
     }
 
     @Override
