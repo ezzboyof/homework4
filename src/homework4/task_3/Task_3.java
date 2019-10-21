@@ -1,5 +1,5 @@
 package homework4.task_3;
-import homework4.task_1.Person;
+import homework4.task_1.Person; // нужен абзац
 public class Task_3 {
     public static void main(String[] args) {
         int count = 0;
